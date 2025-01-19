@@ -1,23 +1,28 @@
+	<!-- ajout du type de document -->
 <!DOCTYPE html>
+<!-- ajout du langage du document -->
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
+	<!-- ajout du lien vers le css minifié -->
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 
+<!--  referencement local et les réseaux sociaux -->
 	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux."/>
-
+<!-- balises méta opengraph pour facebook -->
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="Nina Carducci - Photographe à Bordeaux" />
 	<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux."/>
 	<meta property="og:image" content="https://jawedbs.github.io/Nina-Carducci/assets/images/nina.webp"/>
 	<meta property="og:url" content="https://jawedbs.github.io/Nina-Carducci/"/>
 	<meta property="og:site_name" content="Nina Carducci Photographie"/>
-
+<!-- balises méta twitter cards -->
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:title" content="Nina Carducci - Photographe à Bordeaux"/>
 	<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux."/>
@@ -25,12 +30,13 @@
 	<meta name="twitter:site" content="@NinaCarducci"/>
 	<meta property="twitter:url" content="https://jawedbs.github.io/Nina-Carducci/"/>
 
-
+<!-- ajout du titre -->
 	<title>Nina Carducci Photographie</title>
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+<!-- script données enrichis pour référencement local -->
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
@@ -50,6 +56,7 @@
 		</script>
 </head>
 <body>
+	<!-- structure header main avec plusieurs sections footers -->
 <header>
 <div class="top-header">
 	<h1 class="name">Nina Carducci</h1>
@@ -72,6 +79,7 @@
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		</div>
 		<div class="carousel-inner">
+			<!-- ajout de alt sur les images du carrousel et toutes les autres images-->
 			<div class="carousel-item active">
 				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="homme qui marche sur une route">
 			</div>
@@ -130,6 +138,7 @@
 	</div>
 </section>
 <section id="services">
+	<!-- structure hiérarchique en cascade des titres et sous titres -->
 	<h2 class="title">Mes services</h2>
 	<div class="container">
 		<div class="service">
@@ -181,6 +190,7 @@
 			<h2>Une question ? Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
+				<!-- ajout de label sur les éléments du formulaire et une autocompletion sur l'email -->
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
 				<label for="email">Email</label>
